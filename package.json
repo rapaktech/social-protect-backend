@@ -1,0 +1,20 @@
+{
+  "name": "social-protect-backend",
+  "version": "1.0.0",
+  "description": "A website that walks the user through setting up two-factor authentication on their social media acccounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Jim Ezesinachi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
